@@ -17,8 +17,8 @@ R and eventually a database approach. This is mainly for my own practice, and
 also because I want to see what limitations / advantages each of these
 approaches offers. 
 
-I'm currently tracking progress on [Trello](https://trello.com/c/ftpQUBiK),
-and documenting it in more detail [here.](https://docs.google.com/document/d/12vckl9tqZNVNlNI1I5sL9OwnWX1YAwia597QRnHvzak/edit?usp=sharing)
-
 I'll eventually make a statement about my findings on Medium, and update this
 README with a quick glance at the highlights.
+
+Mid-Career Salaries:
+![alt text](https://github.com/DylanPJackson/collegiate_advantage/imgs/all_types.png)
