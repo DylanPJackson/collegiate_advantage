@@ -21,4 +21,4 @@ I'll eventually make a statement about my findings on Medium, and update this
 README with a quick glance at the highlights.
 
 Mid-Career Salaries:
-![alt text](https://github.com/DylanPJackson/collegiate_advantage/imgs/all_types.png)
+![alt text](https://github.com/DylanPJackson/collegiate_advantage/tree/master/imgs/all_types.png)
