@@ -22,3 +22,6 @@ README with a quick glance at the highlights.
 
 Mid-Career Salaries:
 ![alt text](https://github.com/DylanPJackson/collegiate_advantage/blob/master/imgs/all_types.png)
+
+Median Starting Salaries by Major:
+![Median Starting Salaries vs Major](https://github.com/DylanPJackson/collegiate_advantage/blob/master/imgs/starting_major_R.png)
