@@ -57,27 +57,3 @@ I'll start by familiarizing myself with the data in Python, then transition to
 R and eventually a database approach. This is mainly for my own practice, and
 also because I want to see what limitations / advantages each of these
 approaches offers. 
-
-## Some SQL Queries I ran to get various data
-1. To retrieve all House Meetings missed for the 2019 class
-
-    select uid, count(attendance_status) from member_hm_attendance
-    where attendance_status = 'Absent'
-    and meeting_id in
-        (select id from house_meetings
-        where date <= '10-27-19' and date >= '08-25-19')
-    and uid in
-        (select uid from freshman_eval_data
-        where eval_date >= '2019-11-01 00:00:00')
-    group by uid
-    order by uid
-
-2. To get evaluation results
-    select uid, freshman_eval_result
-    case
-        when freshman_eval_result = 'Pending' then 2
-        when freshman_eval_result = 'Passed' then 1
-        else 0
-    end
-    from freshman_eval_data where eval_date >= '2019-11-01 00:00:00'
-    order by uid
